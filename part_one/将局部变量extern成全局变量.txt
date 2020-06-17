@@ -1,0 +1,6 @@
+在test.cc中定义的值，int a = 999
+
+然后在test.h中，extern int a; 这样就相当于把a中的局部变量变成了全局变量，
+即a原本只是在test.cc中的，这样操作一番后，就可以在其他文件中使用了。
+
+然后在main.cc中include "test.h"，就可以使用a了
