@@ -1,3 +1,0 @@
-/Users/apple/Desktop/C++/cppkeypoint/part_one/build/CMakeFiles/rebuild_cache.dir
-/Users/apple/Desktop/C++/cppkeypoint/part_one/build/CMakeFiles/edit_cache.dir
-/Users/apple/Desktop/C++/cppkeypoint/part_one/build/CMakeFiles/Main.dir
