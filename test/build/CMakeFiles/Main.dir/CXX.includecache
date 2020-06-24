@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/apple/Desktop/C++/cppkeypoint/test/main.cc
+iostream
+-
+
+/Users/apple/Desktop/C++/cppkeypoint/test/test.cc
+
