@@ -1,0 +1,6 @@
+假如 Father 的子类是 Son
+父类 Father 的指针 father 指向子类 Son 的对象 son
+这时候delete father
+假如 Father 中的析构函数不是虚析构函数，那么就只会调用Father的析构函数
+如果 Father 中的析构函数是虚析构函数，那么会先调用子类的析构函数，
+再调用父类的析构函数，避免内存泄漏。
