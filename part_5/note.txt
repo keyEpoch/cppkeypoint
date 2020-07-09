@@ -1,0 +1,8 @@
+利用vscode来debug
+1. 在.vscode目录下生成launch.json和tasks.json
+    点击左边的小虫子（也就是debug图标），然后点调试按钮，这时候会自动生成launch.json;
+    再点“终端” -> “配置默认生成任务”，就会出现生成task.json的选项
+2. 修改launch.json中的program（可执行程序的路径），args（程序运行参数）
+    preLaunchTask（这个是再程序运行前，也就是命令行bash阶段的工作，所以叫preLaunchTask），
+    preLaunchTask中对应task.json的label，我这里命名mybuild，也就是task.json中的label项。
+    再修改task.json中的command项（也就是程序开始前，命令行要做的参数）即可.
