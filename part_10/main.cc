@@ -11,7 +11,7 @@ int m = 0;
 std::mutex _mutex;
 
 void foo(std::string idx) {
-	std::lock_guard<std::mutex> lock(_mutex);
+	std::lock_guard<std::mutex> lock(_mutex);    // 加锁后会自动解锁
 	++m;
 	cout << "thread:" << idx.c_str() << ",  m:" << m  << endl;
 }
